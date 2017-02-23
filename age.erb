@@ -1,0 +1,7 @@
+<center>Hello <%=name%>, how old are you?<center>
+
+<form method="post" action="/age">
+	<input type="number" name="age_input">
+	<input type="text" name="name_input" value=<%=name%> hidden>
+	<input type="submit" value="submit">
+</form>
